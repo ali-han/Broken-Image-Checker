@@ -15,27 +15,42 @@ Broken Image Checker is a Python-based tool designed to identify and report brok
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/BrokenImageChecker.git
-   cd BrokenImageChecker
-   ```
+1. Clone the repository using GitHub Desktop:
+   - Open GitHub Desktop.
+   - Click on `File > Clone Repository`.
+   - Enter the repository URL: `https://github.com/ali-han/Broken-Image-Checker.git`.
+   - Choose a local path and click `Clone`.
 
-2. Install the required dependencies:
+   Alternatively, download the repository as a ZIP file:
+   - Go to the repository page on GitHub.
+   - Click the `Code` button and select `Download ZIP`.
+   - Extract the ZIP file to your desired location.
+
+2. Install the required dependencies using `pip`:
    ```bash
    pip install -r requirements.txt
+   ```
+   If `pip3` is required on your system:
+   ```bash
+   pip3 install -r requirements.txt
    ```
 
 ## Usage
 
-1. Run the script:
+1. Run the script using Python:
    ```bash
    python run.py
+   ```
+   If `python3` is required on your system:
+   ```bash
+   python3 run.py
    ```
 
 2. Enter the starting URL when prompted (e.g., `https://example.com`).
 
-3. The script will crawl the website, check for broken images, and generate a CSV report in the current directory.
+3. To stop the scan at any time, press `CTRL+C`.
+
+4. The script will crawl the website, check for broken images, and generate a CSV report in the current directory.
 
 ## Output
 
